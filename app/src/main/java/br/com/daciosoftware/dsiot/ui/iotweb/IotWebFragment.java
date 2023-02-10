@@ -25,7 +25,7 @@ public class IotWebFragment extends Fragment {
         final WebView webView = root.findViewById(R.id.webviewIotWeb);
         webView.setWebViewClient(new WebViewClient());
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("https://automacao.daciosoftware.com.br/iot");
+        webView.loadUrl("https://automacao.daciosoftware.com.br/sensores");
         return root;
     }
 }

@@ -22,7 +22,7 @@ public class Iot124Fragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_iot124, container, false);
         final WebView webView = root.findViewById(R.id.webviewIot124);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://192.168.1.124");
+        webView.loadUrl("http://192.168.0.124");
         return root;
     }
 }

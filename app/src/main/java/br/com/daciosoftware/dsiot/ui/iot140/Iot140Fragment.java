@@ -27,8 +27,10 @@ public class Iot140Fragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_iot140, container, false);
         final WebView webView = root.findViewById(R.id.webviewIot140);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://192.168.1.140");
-
+        webView.loadUrl("http://192.168.0.140");
+        webView.clearCache(true);
+        webView.clearHistory();
+        webView.getSettings().setJavaScriptEnabled(true);
         return root;
     }
 }

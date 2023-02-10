@@ -27,7 +27,7 @@ public class Iot130Fragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_iot130, container, false);
         final WebView webView = root.findViewById(R.id.webviewIot130);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://192.168.1.130");
+        webView.loadUrl("http://192.168.0.130");
 
         return root;
     }
